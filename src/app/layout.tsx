@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
+import Link from 'next/link'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -16,7 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <title>Hello Edison</title>
+      <meta name="keywords" content='网站开发,Next.js,javascriptsss'></meta>
+      <body className={inter.className}>
+
+
+        <Link href={'/users'}>Users</Link>
+        <Link href={'/about'} >Aboutssss</Link>
+
+        {children}</body>
     </html>
   )
 }
