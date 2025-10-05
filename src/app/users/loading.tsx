@@ -8,6 +8,5 @@ export default function Loadingpage() {
         Loing...Wait a moment!!!<br />
         Loing...Wait a moment!!!<br />
         Loing...Wait a moment!!!<br />
-        Loing...Wait a moment!!!
     </h1>
 }
