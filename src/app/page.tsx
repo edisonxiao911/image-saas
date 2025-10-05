@@ -123,7 +123,7 @@ export default async function Home() {
 
     <div className='h-screen flex justify-center items-center'>
       <Head>
-        <title>非LayoutTitles</title>
+        <title>首页</title>
       </Head>
       <Link href={'/users'}>Users</Link>
       <Link href={'/about'} >Aboutssss</Link>
